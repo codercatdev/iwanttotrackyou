@@ -18,7 +18,9 @@ export default function Home() {
           </a>
         </p>
         <a
-          href="https://twitter.com/intent/tweet?url=https://codingcat.dev/&via=CodingCatDev&hashtags=Can%20you%20believe%20%40tylermcginnis%20made%20me%20buy%0Ahttps%3A%2F%2Fiwanttotrackyou.com%2F%0A%0AIf%20you%20enjoy%20coding%20and%20fun%20check%20it%20out%0Ahttps%3A%2F%2Fgithub.com%2Fcodercatdev%2Fiwanttotrackyou%0A"
+          href="https://twitter.com/intent/tweet?via=CodingCatDev&text=Can%20you%20believe%20%40tylermcginnis%20made%20me%20buy%0Ahttps%3A%2F%2Fiwanttotrackyou.com%2F%0A%0AIf%20you%20enjoy%20coding%20and%20fun%20check%20it%20out."
+          target="_blank"
+          rel="noreferrer noopener"
           type="button"
           data-mdb-ripple="true"
           data-mdb-ripple-color="light"
