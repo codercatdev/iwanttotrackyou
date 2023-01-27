@@ -7,8 +7,18 @@ const nextConfig = {
     return [
       {
         source: "/",
-        destination: "/api/",
+        destination: "/api",
         has: [
+          {
+            type: "host",
+            value: "api.iwanttotrackyou.com",
+          },
+        ],
+      },
+      {
+        source: "/",
+        destination: "www.google.com",
+        missing: [
           {
             type: "host",
             value: "api.iwanttotrackyou.com",
