@@ -3,10 +3,10 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-  async rewrites() {
+  async redirects() {
     return [
       {
-        source: "/",
+        source: "/:path((?!another-page$).*)",
         destination: "/api",
         has: [
           {
@@ -14,9 +14,10 @@ const nextConfig = {
             value: "api.iwanttotrackyou.com",
           },
         ],
+        permanent: false,
       },
       {
-        source: "/",
+        source: "/:path((?!another-page$).*)",
         destination: "https://www.google.com",
         missing: [
           {
@@ -24,6 +25,7 @@ const nextConfig = {
             value: "api.iwanttotrackyou.com",
           },
         ],
+        permanent: false,
       },
     ];
   },
