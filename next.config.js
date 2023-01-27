@@ -17,7 +17,7 @@ const nextConfig = {
       },
       {
         source: "/",
-        destination: "www.google.com",
+        destination: "https://www.google.com",
         missing: [
           {
             type: "host",
